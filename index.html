@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chik-Chik Barbershop</title>
+</head>
+
+<body>
+    <header class="header">
+        <img class="header__logo" src="./assets/img/logo.svg" alt="Logo Chik-Chik Barbershop">
+        <nav class="header__navigation navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a href="#price" class="navigation__link">Price</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#about" class="navigation__link">About us</a>
+                </li>
+            </ul>
+        </nav>
+        <a href="#booking" class="header__link main-link">Booking</a>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">
+                    <span class="visibility-hidden">Barbershop Chik-Chik</span>
+                    <span>We create art which is not ashamed to show</span>
+                </h1>
+                <div class="hero__slider slider">
+                    <div class="slider__container">
+                        <ul class="slider__list">
+                            <li class="slider__item">
+                                <img class="slider__img" src="./assets/img/photo01.jpg" alt="Bald Fade">
+                            </li>
+                            <li class="slider__item">
+                                <img class="slider__img" src="./assets/img/photo02.jpg" alt="Blowout">
+                            </li>
+                            <li class="slider__item">
+                                <img class="slider__img" src="./assets/img/photo03.jpg" alt="Box Braids">
+                            </li>
+                            <li class="slider__item">
+                                <img class="slider__img" src="./assets/img/photo04.jpg" alt="Bowl Cut">
+                            </li>
+                            <li class="slider__item">
+                                <img class="slider__img" src="./assets/img/photo05.jpg" alt="Burst Fade">
+                            </li>
+                            <li class="slider__item">
+                                <img class="slider__img" src="./assets/img/photo06.jpg" alt="Cornrows">
+                            </li>
+                            <li class="slider__item">
+                                <img class="slider__img" src="./assets/img/photo07.jpg" alt="Buzz Cut">
+                            </li>
+                            <li class="slider__item">
+                                <img class="slider__img" src="./assets/img/photo08.jpg" alt="Caesar Cut">
+                            </li>
+                        </ul>
+
+                        <button class="slider__arrow slider__arrow_left" arial-label="previous slide"></button>
+                        <button class="slider__arrow slider__arrow_right" arial-label="next slide"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="price" class="price">
+            <div class="container">
+                <h2 class="price__title">Our prices</h2>
+                <p class="price__tagline">... priceless, but still</p>
+
+                <div class="price__wrapper-content">
+                    <ul class="price__list">
+                        <li class="price__item">
+                            <span class="price__item-title">Haircut with scissors</span>
+                            <span class="price__item-count">$50</span>
+                        </li>
+                        <li class="price__item">
+                            <span class="price__item-title">Clipper haircut</span>
+                            <span class="price__item-count">$40</span>
+                        </li>
+                        <li class="price__item">
+                            <span class="price__item-title">Haircut + beard trim</span>
+                            <span class="price__item-count">$80</span>
+                        </li>
+                        <li class="price__item">
+                            <span class="price__item-title">Haircut + beard modeling</span>
+                            <span class="price__item-count">$60</span>
+                        </li>
+                        <li class="price__item">
+                            <span class="price__item-title">Shaving head</span>
+                            <span class="price__item-count">$30</span>
+                        </li>
+                        <li class="price__item">
+                            <span class="price__item-title">Styling</span>
+                            <span class="price__item-count">$25</span>
+                        </li>
+                        <li class="price__item">
+                            <span class="price__item-title">Eyebrow shaping</span>
+                            <span class="price__item-count">$20</span>
+                        </li>
+                        <a href="#booking" class="price__link main-link">Booking</a>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="about__title">We help all men look confident</h2>
+                <p class="about__description">Chik-chik is much more than just barber. This is the place where you will
+                    be helped to find your own unique style. It is worth trusting our masters once, and, believe me, the
+                    new image will not leave you indifferent. Men's haircuts and dangerous shaves are our speciality,
+                    and we believe our barbers are the best at it.</p>
+
+                <ul class="about__list">
+                    <li class="about__item">
+                        <h3 class="about__item-title">Top specialists</h3>
+                        <p class="about__item-description">We will cut you to the highest standard.</p>
+                    </li>
+                    <li class="about__item">
+                        <h3 class="about__item-title">Masters of beards and mustaches</h3>
+                        <p class="about__item-description">We take care of your beard and mustache</p>
+                    </li>
+                    <li class="about__item">
+                        <h3 class="about__item-title">Quality assurance</h3>
+                        <p class="about__item-description">We use only professional products</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="booking" class="booking">
+            <div class="container">
+                <h2 class="booking__title">How to booking</h2>
+                <ol class="booking__list">
+                    <li class="booking__item">Select a service, you can select several at once</li>
+                    <li class="booking__item">Choose a specialist</li>
+                    <li class="booking__item">Choose a convenient day and time</li>
+                </ol>
+
+                <form class="booking__form">
+                    <div class="booking__form-container">
+                        <fieldset class="booking__fieldset">
+                            <legend class="booking__legend">Service</legend>
+                            <label class="radio" for="">
+                                <input class="radio__input" type="radio" name="service">
+                                <span class="radio__label">Haircut with scissors</span>
+                            </label>
+
+                            <label class="radio" for="">
+                                <input class="radio__input" type="radio" name="service">
+                                <span class="radio__label">Clipper haircut</span>
+                            </label>
+                            <label class="radio" for="">
+                                <input class="radio__input" type="radio" name="service">
+                                <span class="radio__label">Haircut + beard trim</span>
+                            </label>
+                            <label class="radio" for="">
+                                <input class="radio__input" type="radio" name="service">
+                                <span class="radio__label">Haircut + beard modeling</span>
+                            </label>
+                            <label class="radio" for="">
+                                <input class="radio__input" type="radio" name="service">
+                                <span class="radio__label">Shaving head</span>
+                            </label>
+                            <label class="radio" for="">
+                                <input class="radio__input" type="radio" name="service">
+                                <<span class="radio__label">Styling</span>
+                            </label>
+                            <label class="radio" for="">
+                                <input class="radio__input" type="radio" name="service">
+                                <span class="radio__label">Eyebrow shaping</span>
+                            </label>
+                        </fieldset>
+                        <fieldset class="booking__fieldset">
+                            <legend class="booking__legend">Specialist</legend>
+                            <label class="radio" for="">
+                                <input class="radio__input" type="radio" name="specialist">
+                                <span class="radio__label radio__label_spec">Johny</span>
+                            </label>
+                            <label class="radio" for="">
+                                <input class="radio__input" type="radio" name="specialist">
+                                <span class="radio__label radio__label_spec">Alex</span>
+                            </label>
+                            <label class="radio" for="">
+                                <input class="radio__input" type="radio" name="specialist">
+                                <span class="radio__label radio__label_spec">Daniel</span>
+                            </label>
+                            <label class="radio" for="">
+                                <input class="radio__input" type="radio" name="specialist">
+                                <span class="radio__label radio__label_spec">Marry</span>
+                            </label>
+                            <label class="radio" for="">
+                                <input class="radio__input" type="radio" name="specialist">
+                                <span class="radio__label radio__label_spec">Tim</span>
+                            </label>
+                        </fieldset>
+                        <fieldset class="booking__fieldset">
+                            <legend class="booking__legend">date and time</legend>
+                            <fieldset class="reserve__fieldset reserve__fieldset_sub">
+                                <label class="radio" for="">
+                                    <input class="radio__input" type="radio" name="month">
+                                    <span class="radio__label">January</span>
+                                </label>
+                                <label class="radio" for="">
+                                    <input class="radio__input" type="radio" name="month">
+                                    <span class="radio__label">February</span>
+                                </label>
+                                <label class="radio" for="">
+                                    <input class="radio__input" type="radio" name="month">
+                                    <span class="radio__label">March</span>
+                                </label>
+                            </fieldset>
+                            <fieldset class="reserve__fieldset reserve__fieldset_sub">
+                                <label class="radio" for="">
+                                    <input class="radio__input" type="radio" name="day">
+                                    <span class="radio__label">January 19</span>
+                                </label>
+                                <label class="radio" for="">
+                                    <input class="radio__input" type="radio" name="day">
+                                    <span class="radio__label">January 20</span>
+                                </label>
+                                <label class="radio" for="">
+                                    <input class="radio__input" type="radio" name="day">
+                                    <span class="radio__label">January 21</span>
+                                </label>
+                                <label class="radio" for="">
+                                    <input class="radio__input" type="radio" name="day">
+                                    <span class="radio__label">January 22</span>
+                                </label>
+                            </fieldset>
+                            <fieldset class="reserve__fieldset reserve__fieldset_sub">
+                                <label class="radio" for="">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">10:00-11:30</span>
+                                </label>
+                                <label class="radio" for="">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">11:30-13:00</span>
+                                </label>
+                                <label class="radio" for="">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">13:00-14:30</span>
+                                </label>
+                                <label class="radio" for="">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">16:00-17:30</span>
+                                </label>
+                                <label class="radio" for="">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">17:30-19:00</span>
+                                </label>
+                                <label class="radio" for="">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">19:00-20:30</span>
+                                </label>
+                            </fieldset>
+                        </fieldset>
+                    </div>
+                    <buttom class="booking__btn main-link">Booking</buttom>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="container">
+            <img class="footer__logo" src="./assets/img/logo.svg" alt="Logo Chik-Chik Barbershop">
+            <nav class="footer__navigation navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a href="#price" class="navigation__link">Price</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#about" class="navigation__link">About us</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer__authors">
+                <span class="footer__name">Designer: Anastasia Ilina</span>
+                <span class="footer__name">Developer: Valentine Tur</span>
+            </div>
+            <p class="footer__copywrite">© Chik-Chik Barbershop, 2023</p>
+        </div>
+    </footer>
+</body>
+
+</html>
